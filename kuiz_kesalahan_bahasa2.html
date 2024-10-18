@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuiz Interaktif - Kesalahan Tatabahasa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        label, input[type="text"] {
+            display: block;
+            margin: 10px 0;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .answer {
+            width: 100%;
+            height: 30px;
+        }
+        .score, .corrections {
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+        .btn-submit {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Kuiz Interaktif - Kesalahan Tatabahasa</h1>
+        <form id="quizForm">
+            <label for="studentName">Nama Pelajar:</label>
+            <input type="text" id="studentName" name="studentName" required>
+
+            <label for="class">Kelas:</label>
+            <input type="text" id="class" name="class" required>
+
+            <!-- Questions Section -->
+            <div class="question">
+                <p>1. Tiap remaja haruslah mempunyai prinsip bagi membendung pengaruh yang dapat merosakkan jiwanya.</p>
+                <label for="answer1">Gariskan kesalahan dan tulis jawapannya:</label>
+                <input type="text" id="answer1" name="answer1" class="answer">
+            </div>
+
+            <div class="question">
+                <p>2. Para pengguna hendaklah mengikis sikap gopoh-gapah ketika di jalanraya untuk mengelakkan kemalangan.</p>
+                <label for="answer2">Gariskan kesalahan dan tulis jawapannya:</label>
+                <input type="text" id="answer2" name="answer2" class="answer">
+            </div>
+
+            <div class="question">
+                <p>3. Ketiga tokoh motivasi terkenal itu akan membincangkan pandangan mereka tentang isu gejala sosial dalam forum yang akan diadakan pada malam ini.</p>
+                <label for="answer3">Gariskan kesalahan dan tulis jawapannya:</label>
+                <input type="text" id="answer3" name="answer3" class="answer">
+            </div>
+
+            <div class="question">
+                <p>4. Rangkaian batu karang di perairan Miri dikenali pasti sebagai kawasan batu karang yang tercantik sekali di dunia.</p>
+                <label for="answer4">Gariskan kesalahan dan tulis jawapannya:</label>
+                <input type="text" id="answer4" name="answer4" class="answer">
+            </div>
+
+            <div class="question">
+                <p>5. Rawatan terapi medan elektrik statik menggunakan getaran elektrik bagi memecahkan lemak dalam kapilari darah.</p>
+                <label for="answer5">Gariskan kesalahan dan tulis jawapannya:</label>
+                <input type="text" id="answer5" name="answer5" class="answer">
+            </div>
+
+            <div class="question">
+                <p>6. Generasi kini wajar diberikan peringatan tentang kepentingan amalan berbudi bahasa di kalangan masyarakat.</p>
+                <label for="answer6">Gariskan kesalahan dan tulis jawapannya:</label>
+                <input type="text" id="answer6" name="answer6" class="answer">
+            </div>
+
+            <div class="question">
+                <p>7. Ibu bapa perlu mendidik dan menanamkan nilai murni dalam diri anak-anak mereka dalam usaha melahirkan masyarakat penyayang.</p>
+                <label for="answer7">Gariskan kesalahan dan tulis jawapannya:</label>
+                <input type="text" id="answer7" name="answer7" class="answer">
+            </div>
+
+            <div class="question">
+                <p>8. Kerajaan berusaha untuk mempelbagaikan asas ekonomi negara kita agar sentiasa berkembang dan maju.</p>
+                <label for="answer8">Gariskan kesalahan dan tulis jawapannya:</label>
+                <input type="text" id="answer8" name="answer8" class="answer">
+            </div>
+
+            <div class="question">
+                <p>9. Saintis itu sanggup menempuh pelbagai cabaran untuk memastikan kajian yang dijalankan berjaya.</p>
+                <label for="answer9">Gariskan kesalahan dan tulis jawapannya:</label>
+                <input type="text" id="answer9" name="answer9" class="answer">
+            </div>
+
+            <div class="question">
+                <p>10. Kejadian buli yang berlaku di setengah sekolah tidak wajar dibiarkan supaya mangsa mendapat pembelaan dan bantuan.</p>
+                <label for="answer10">Gariskan kesalahan dan tulis jawapannya:</label>
+                <input type="text" id="answer10" name="answer10" class="answer">
+            </div>
+
+            <div class="question">
+                <p>11. Oleh sebab Cikgu Zubaidah kesakitan, tugas mengetahui lawatan itu telah diambil alih oleh guru lain.</p>
+                <label for="answer11">Gariskan kesalahan dan tulis jawapannya:</label>
+                <input type="text" id="answer11" name="answer11" class="answer">
+            </div>
+
+            <div class="question">
+                <p>12. Atikah tidak dapat menahan serak apabila melihat keadaan neneknya yang sedang nazak.</p>
+                <label for="answer12">Gariskan kesalahan dan tulis jawapannya:</label>
+                <input type="text" id="answer12" name="answer12" class="answer">
+            </div>
+
+            <div class="question">
+                <p>13. Beratus ekor ikan di dalam kolam itu telah dihanyutkan ke laut dalam kejadian banjir pada minggu lepas.</p>
+                <label for="answer13">Gariskan kesalahan dan tulis jawapannya:</label>
+                <input type="text" id="answer13" name="answer13" class="answer">
+            </div>
+
+            <div class="question">
+                <p>14. Restoran Limau sentiasa dikunjungi ramai kerana berbagai jenis makanan ada dijual di situ.</p>
+                <label for="answer14">Gariskan kesalahan dan tulis jawapannya:</label>
+                <input type="text" id="answer14" name="answer14" class="answer">
+            </div>
+
+            <div class="question">
+                <p>15. Pakaian yang digayakan oleh peragawati itu kelihatan cantik-cantik nian sehingga dipuji oleh hadirin.</p>
+                <label for="answer15">Gariskan kesalahan dan tulis jawapannya:</label>
+                <input type="text" id="answer15" name="answer15" class="answer">
+            </div>
+
+            <div class="question">
+                <p>16. Objektif utama Hari Kokurikulum diadakan adalah untuk memupuk sikap kerjasama sambil mengeratkan hubungan antara guru dan ahli persatuan.</p>
+                <label for="answer16">Gariskan kesalahan dan tulis jawapannya:</label>
+                <input type="text" id="answer16" name="answer16" class="answer">
+            </div>
+
+            <div class="question">
+                <p>17. Pakar motivasi itu telah kemukakan beberapa langkah untuk menjadi pelajar yang cemerlang.</p>
+                <label for="answer17">Gariskan kesalahan dan tulis jawapannya:</label>
+                <input type="text" id="answer17" name="answer17" class="answer">
+            </div>
+
+            <div class="question">
+                <p>18. Amalan membaca perlu disemai dalam diri setiap insan tanpa mengira usia samada tua atau muda.</p>
+                <label for="answer18">Gariskan kesalahan dan tulis jawapannya:</label>
+                <input type="text" id="answer18" name="answer18" class="answer">
+            </div>
+
+            <div class="question">
+                <p>19. Peresmian karnival itu diserikan dengan percikan bunga api yang berbagai-bagai corak dan warna.</p>
+                <label for="answer19">Gariskan kesalahan dan tulis jawapannya:</label>
+                <input type="text" id="answer19" name="answer19" class="answer">
+            </div>
+
+            <div class="question">
+                <p>20. Jari Mak Limah luka dan berdarah oleh kerana digigit oleh seekor ikan keli semalam.</p>
+                <label for="answer20">Gariskan kesalahan dan tulis jawapannya:</label>
+                <input type="text" id="answer20" name="answer20" class="answer">
+            </div>
+
+            <button type="button" class="btn-submit" onclick="calculateScore()">Hantar Jawapan</button>
+        </form>
+
+        <div id="result" class="score"></div>
+        <div id="corrections" class="corrections"></div>
+    </div>
+
+    <script>
+        function calculateScore() {
+            let correctAnswers = [
+                'setiap', 'jalan raya', 'ketiga-tiga', 'dikenal pasti', 'memecahkan', 
+                'dalam kalangan', 'menanam', 'dasar', 'saintis', 'sesetengah-setengah', 
+                'sakit', 'sebak', 'beratus-ratus', 'pelbagai', 'cantik nian', 
+                'dan', 'mengemukakan', 'sama ada', 'perasmian', 'kerana'
+            ]; // Jawapan betul
+
+            let totalQuestions = correctAnswers.length;
+            let score = 0;
+            let corrections = "";
+
+            for (let i = 0; i < totalQuestions; i++) {
+                let userAnswer = document.getElementById('answer' + (i + 1)).value.trim().toLowerCase();
+                if (userAnswer === correctAnswers[i]) {
+                    score++;
+                    corrections += `Soalan ${i + 1}: Betul<br>`;
+                } else {
+                    corrections += `Soalan ${i + 1}: Salah (Jawapan betul: ${correctAnswers[i]})<br>`;
+                }
+            }
+
+            let resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = `Nama: ${document.getElementById('studentName').value}<br>Kelas: ${document.getElementById('class').value}<br>
+                                   Skor: ${score} daripada ${totalQuestions}`;
+
+            let correctionsDiv = document.getElementById('corrections');
+            correctionsDiv.innerHTML = corrections;
+        }
+    </script>
+</body>
+</html>
